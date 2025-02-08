@@ -26,47 +26,86 @@ body {
 	
 }
 
-h1,
-h2,
+h1 {
+
+}
 
 p {
-
+	
 }
 
 
 /* Elements
 --------------------------------------------- */
-.site-nav {
-    display: flex;
-    justify-content: flex-end;
-    margin-right: 3em;
-    margin-top: .5em;
-    background-color: #ffffff;
+.index-header {
+    position: relative;
     width: 100%;
-}
-
-.site-nav ul {
+    height: 100vh; /* Full viewport height */
     display: flex;
-    flex-direction: row;
-    gap: 2em;
-    padding-right: 1em;
-    /* color: cornflowerblue; */
-    list-style-type: none;
+    justify-content: space-between; /* Space elements to left and right */
+    align-items: flex-end; /* Align to the bottom */
+    padding: 20px;
+    box-sizing: border-box;
 }
 
-#scottishHills {
-    
+.index-header video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 35.8rem; /* Set height explicitly */
+    width: 100%; /* Maintain full width */
+    object-fit: cover; /* Ensures it fills the area without stretching */
+    z-index: -1;
 }
 
-table {
-	
+.index-header h1 {
+    position: absolute;
+    bottom: -6rem;
+    left: 2rem;
+    font-size: 14rem;
+    opacity: 40%;
+    color: #ffffff;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+    z-index: 1;
+}
+
+.quote-text {
+    position: absolute;
+    top: 4rem;
+    right: 2rem;
+    color: #ffffff;
+    background-color: black;
+    max-width: 40%;
+    font-style: italic;
+    text-align: right;
+    z-index: 1;
+}
+
+.quote-author {
+    position: relative;
+    right: 2.5rem;
 }
 
 /* Links
 --------------------------------------------- */
-.site-nav a {
-    color: #0863bb;
-    text-decoration: none;
+a {
+	
+}
+
+a:visited {
+	
+}
+
+a:hover {
+	
+}
+
+a:focus {
+	
+}
+
+a:active {
+	
 }
 
 
@@ -89,6 +128,7 @@ table {
 /* Intro */
 
 /* About */
+
 
 /* Projects */
 
