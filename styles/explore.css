@@ -5,6 +5,7 @@ h1 {
     font-size: 3rem;
     color: #ffffff;
     z-index: 1;
+    font-family: 'Grenze Gotisch', cursive;
 }
 
 @media (min-width: 1024px) {

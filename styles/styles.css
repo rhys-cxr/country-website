@@ -82,6 +82,7 @@ form p {
     .site-nav li:first-child {
         display: none;
     }
+
     .site-nav ul {
         display: flex;
         justify-content: space-around;
