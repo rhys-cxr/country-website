@@ -69,3 +69,22 @@ form p {
     padding: 1rem 0;
     width: 100%;
 }
+
+#nav-logo {
+    height: 30px;
+    width: 50px;
+    position: absolute;
+    left: 1rem;
+    top: .5rem
+}
+
+@media (max-width: 768px) {
+    .site-nav li:first-child {
+        display: none;
+    }
+    .site-nav ul {
+        display: flex;
+        justify-content: space-around;
+        margin-left: 4rem;
+    }
+}
