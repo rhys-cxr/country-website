@@ -1,34 +1,10 @@
-/*--------------------------------------------------------------
->>> TABLE OF CONTENTS:
-----------------------------------------------------------------
-# Generic (CALLED IN ANOTHER FILE)
-	- Normalize
-	- Box sizing
-	- Media width
-# Base
-	- Typography
-	- Elements
-	- Links
-# Layouts
-# Components
-	- Header
-	- Main
-	- Footer
---------------------------------------------------------------*/
-
-/*--------------------------------------------------------------
-# Base
---------------------------------------------------------------*/
-
-/* Typography
---------------------------------------------- */
 body {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
     display: flex;
     flex-direction: column;
-    height: 100vh; /* Make sure the body fills the viewport height */
+    height: 100vh;
     color: black;
 }
 
@@ -36,16 +12,6 @@ main {
     flex: 1;
 }
 
-h1,
-h2,
-
-p {
-
-}
-
-
-/* Elements
---------------------------------------------- */
 .site-nav {
     display: flex;
     background-color: #ffffff;
@@ -58,7 +24,6 @@ p {
     justify-content: space-around;
     flex-direction: row;
     gap: 1em;
-    /* padding-right: 1em; */
     list-style-type: none;
 }
 
@@ -72,7 +37,7 @@ p {
 
 form {
     max-width: 600px;
-    margin: 2rem auto; /* Centers the form */
+    margin: 2rem auto;
     padding: 2rem;
     background-color: #f8f8f8;
     border-radius: 8px;
@@ -85,39 +50,14 @@ form p {
     margin-bottom: 1rem;
 }
 
-#scottishHills {
-    
-}
-
-table {
-	
-}
-
-/* Links
---------------------------------------------- */
 .site-nav a {
     color: #0863bb;
     text-decoration: none;
 }
 
-
-/*--------------------------------------------------------------
-# Layout
---------------------------------------------------------------*/
 .explore-instructions {
     text-align: center;
 }
-
-
-/*--------------------------------------------------------------
-# Components
---------------------------------------------------------------*/
-
-/* Header
---------------------------------------------- */
-
-/* Footer
---------------------------------------------- */
 
 .site-footer {
     position: relative;

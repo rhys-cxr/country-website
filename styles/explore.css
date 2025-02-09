@@ -1,7 +1,7 @@
 h1 {
     position: absolute;
-    bottom: 13rem;
-    left: 3.5rem;
+    bottom: 15rem;
+    left: 4.3rem;
     font-size: 3rem;
     color: #ffffff;
     z-index: 1;
@@ -10,7 +10,7 @@ h1 {
 @media (min-width: 1024px) {
     h1 {
         font-size: 7rem;
-        bottom:-1rem;
+        bottom: -1rem;
         left: 4.5rem;
     }
 }
