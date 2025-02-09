@@ -1,0 +1,42 @@
+h1 {
+    text-align: center;
+}
+
+/* History Page Grid Layout */
+.image-grid {
+    display: grid;
+    grid-template-columns: 1fr; /* Default to single column for mobile */
+    gap: 2rem;
+    padding: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Individual Image Items */
+.image-item-1, .image-item-2, .image-item-3 {
+    text-align: center; /* Center text below images */
+}
+
+.image-item-1 img,
+.image-item-2 img,
+.image-item-3 img {
+    width: 100%; /* Responsive images */
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.image-grid p {
+    margin-top: 0.5rem;
+    font-size: 1rem;
+    color: #333;
+}
+
+/* 💻 Laptop View: Side-by-Side Grid */
+@media (min-width: 768px) {
+    .image-grid {
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Responsive columns */
+        gap: 2rem;
+        padding: 1rem;
+    }
+}

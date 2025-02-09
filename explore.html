@@ -7,6 +7,7 @@
     <title>Explore</title>
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles/explore.css">
 </head>
 
 <body>
@@ -22,10 +23,43 @@
                 </ul>
             </nav>
         </div>
+    </header>
 
-        
+    <main>
+        <div class="explore-hero">
+            <img id="explore-picture" src="images/explore-scotland.jpg" alt="">
+            <h1>Explore</h1>
+        </div>
+        <div class="explore-instructions">
+            <h2>Hoo aboot a wander?</h2>
+            <p>Explore Scotland's historied lands with a professionally curated itinerary.</p>
+            <p>Tell us below why you'd like to visit Scotland. We'll build a personalized, unforgettable experience just
+                for you.</p>
+        </div>
+
+        <div class="explore-form">
+            <form action="/my-handling-form-page" method="post">
+                <p>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="user_name" />
+                </p>
+                <p>
+                    <label for="mail">Email:</label>
+                    <input type="email" id="mail" name="user_email" />
+                </p>
+                <p>
+                    <label for="msg">I'm visiting Scotland because...</label>
+                    <textarea id="msg" name="user_message"></textarea>
+                </p>
+                <p class="button">
+                    <button type="submit">Submit</button>
+                </p>
+            </form>
+        </div>
+    </main>
+
     <footer class="site-footer">
-        &copy Rhys Riebesehl
+        &copy 2025 Rhys Riebesehl
     </footer>
 </body>
 
